@@ -4,12 +4,14 @@
   --background: #ffffff;
   --foreground: #171717;
 }
-
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+@theme{
+  --color-g-1: #84ffc9;
+  --color-g-2: #aab2ff;
+  --color-g-3: #eca0ff;
+  --color-g-4: #40c9ff;
+  --color-g-5: #e81cff;
+  --color-g-6: #57ebde;
+  --color-g-7: #aefb2a;
 }
 
 @media (prefers-color-scheme: dark) {
